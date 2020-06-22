@@ -6,5 +6,5 @@ public class QuestaoComDica extends QuestaSimples {
 		super(enunciado, correto);
 		this.dica = dica;
 	}
-	
+	publi 
 }

@@ -43,11 +43,13 @@ public class QuestaoMultiplasEscolha extends QuestaSimples {
 	public void setd(String d) {
 		this.d = d;
 	}
-
-	@Override
-	public String toString() {
-		return "QuestaoMultiplasEscolha [a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + ", enunciado=" + enunciado
-				+ "]";
+	public String aplicarQuestao(String questao) {
+		return enunciado;
+	}
+	//@Override
+	//public String toString() {
+	//	return "QuestaoMultiplasEscolha [a=" + a + ", b=" + b + ", c=" + c + ", d=" + d + ", enunciado=" + enunciado
+	//			+ "]";
 	}
 
 
